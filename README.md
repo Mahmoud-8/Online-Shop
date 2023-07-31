@@ -25,7 +25,6 @@ This is a simple JavaScript project that demonstrates a basic shopping cart web 
 - CSS
 - JavaScript
 
-
 ## Future Enhancements
 
 This project is a basic implementation of a shopping cart and can be further enhanced in the following ways:
