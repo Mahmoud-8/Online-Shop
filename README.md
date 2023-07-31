@@ -4,7 +4,6 @@
 
 This is a simple JavaScript project that demonstrates a basic shopping cart web application. It allows users to add items (socks, t-shirt, and shorts) to the cart, view the items in the cart, and calculate the total price.
 
-![Screenshot](screenshot.png)
 
 ## Features
 
@@ -13,11 +12,6 @@ This is a simple JavaScript project that demonstrates a basic shopping cart web 
 - The cart section dynamically updates as items are added, showing the item names and the total price.
 - Users can remove items from the cart using the "Remove" button.
 - The project is responsive and can be viewed on various devices.
-
-## Getting Started
-
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser to see the web app.
 
 ## Usage
 
@@ -31,12 +25,6 @@ This is a simple JavaScript project that demonstrates a basic shopping cart web 
 - CSS
 - JavaScript
 
-## Project Structure
-
-- `index.html`: The main HTML file that displays the items and cart section.
-- `script.js`: The JavaScript file that handles the cart functionality and updates the display.
-- `style.css`: The CSS file that provides the basic styles for the webpage.
-- `images/`: A folder containing images of the items (socks, t-shirt, and shorts).
 
 ## Future Enhancements
 
@@ -51,6 +39,3 @@ This project is a basic implementation of a shopping cart and can be further enh
 
 Contributions to this project are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
