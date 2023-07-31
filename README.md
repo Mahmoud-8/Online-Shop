@@ -1,37 +1,56 @@
-# Recap Dom and JavaScript in the browser!
+# Simple Shopping Cart Web App
 
-**Let's bulit a interactive page (a single page application) using vanilla JavaScript.**
+![Alt text](<Screenshot 2023-07-31 at 3.38.29 PM.png>)
 
-This page is styled with [bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-Build what you see on the images below: 
+This is a simple JavaScript project that demonstrates a basic shopping cart web application. It allows users to add items (socks, t-shirt, and shorts) to the cart, view the items in the cart, and calculate the total price.
 
-### Starting page: 
---- 
-![Screenshot 2023-07-30 at 18 01 42](https://github.com/BEAM-WD01-23/Recap-Dom-andJS/assets/43681554/94d24a9e-6b16-4d5e-ad07-7601e20c666a)
+![Screenshot](screenshot.png)
 
-### After shopping: 
---- 
-![Screenshot 2023-07-30 at 17 57 46](https://github.com/BEAM-WD01-23/Recap-Dom-andJS/assets/43681554/6c17fe7b-a9d8-4e56-884c-a8881c9a3f5b)
+## Features
 
---- 
-## Before you start
+- Display three items with their names, prices, and images.
+- Users can add items to the cart by clicking the "Add to Cart" button.
+- The cart section dynamically updates as items are added, showing the item names and the total price.
+- Users can remove items from the cart using the "Remove" button.
+- The project is responsive and can be viewed on various devices.
 
-- Which JavaScript features do you need to build this page?
-- Which data structures will you use for the product data?
-- How will you organize this project? Which files do you need?
+## Getting Started
 
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser to see the web app.
 
-**Links to the photos used in the demo:** 
-- [thsirt](https://unsplash.com/photos/Won79_9oUEk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+## Usage
 
-- [socks](https://unsplash.com/photos/XMg8GBzNmgA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+1. Browse the items displayed on the page (socks, t-shirt, and shorts).
+2. Click the "Add to Cart" button for an item you want to purchase. The item will be added to the cart, and the total price will be updated.
+3. To remove an item from the cart, click the "Remove" button next to the item in the cart section.
 
-- [shorts](https://unsplash.com/photos/Hd4nlxLgIbA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+## Technologies Used
 
+- HTML
+- CSS
+- JavaScript
 
-## Bouns: 
+## Project Structure
 
-- Add information about the current weather. Display icons or texts on the website.
-- Remember to include error handling and display an error message if the data cannot load!
-- Refactor your code to be as clean as possible!
-- Save the selected items to local storage, so that any selected items are still visible after a page reload.
+- `index.html`: The main HTML file that displays the items and cart section.
+- `script.js`: The JavaScript file that handles the cart functionality and updates the display.
+- `style.css`: The CSS file that provides the basic styles for the webpage.
+- `images/`: A folder containing images of the items (socks, t-shirt, and shorts).
+
+## Future Enhancements
+
+This project is a basic implementation of a shopping cart and can be further enhanced in the following ways:
+
+- Allow users to adjust the quantity of items in the cart.
+- Implement a checkout process for completing the purchase.
+- Store the cart items in the browser's local storage to persist across page reloads.
+- Improve the design and add more features to make it a full-fledged e-commerce application.
+
+## Contributions
+
+Contributions to this project are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
